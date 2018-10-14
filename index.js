@@ -1,7 +1,6 @@
-$(document).ready(function() {
-  alert("page is loaded and ready");
-});
-
+document.addEventListener('DOMContentLoaded', function(){ 
+    alert("page is loaded and ready");
+}, false);
  
 function changeParagraphContent() {
   var element = document.getElementById("demo");
